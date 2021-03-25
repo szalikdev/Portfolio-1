@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
@@ -15,19 +15,22 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Once upon a time i felt in love with PHP-based bots, so i decided
+              to learn PHP myself to make one and i ended up falling in love
+              with coding and here i am now creating my own sites, and much more
+              other stuff like game servers and discord bots, apart from that
+              I think i am good at it… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Python and Javascript. </b>
+                <b className="purple"> PHP, JS, HTML, CSS & SQL. </b>
               </i>
               <br />
               <br />
               My current focus is on &nbsp;
               <i>
                 <b className="purple">
-                  Deep Learning and Natural Language Processing.
+                  Learning new languages and other sides of developing.
                 </b>
               </i>
               <br />
@@ -35,11 +38,11 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with
               <i>
-                <b className="purple"> Modern Javascript Frameworks</b>
+                <b className="purple"> Modern Frameworks</b>
               </i>
                 &nbsp; like
               <i>
-                <b className="purple"> Node.js and React.js</b>
+                <b className="purple"> Laravel or React.js</b>
               </i>
             </p>
           </Col>
@@ -58,7 +61,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/szalikdev"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -68,7 +71,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/szalikdev"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -78,17 +81,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://szalik.dev/socials.php?social=discord"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <i className="fab fa-linkedin-in"></i>
+                  <i className="fab fa-discord"></i>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/szalik.dev/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
